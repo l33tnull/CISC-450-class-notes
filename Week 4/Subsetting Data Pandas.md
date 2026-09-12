@@ -42,7 +42,7 @@
 | `country`                                         | Displays the DataFrame as a formatted table, truncated in the middle          | First/last 5 rows + `[239 rows x 3 columns]` |
 | `country['Name']`                                 | Selects one column by label — returns a Series                                | Series `Name`, length 239, dtype object      |
 | `country[['Name']]`                               | Double brackets return a one-column DataFrame instead of a Series             | 239 rows × 1 column                          |
-| `country[['Name', 'Continent']]`                  | A list of labels selects multiple columns                                     | 239 rows × 2 columns                         |
+| `country[['Name', 'Continent']]`                  | A list of labels selects multiple columns. Also returns a DataFrame.          | 239 rows × 2 columns                         |
 | `country.iloc[0, 1]`                              | `.iloc` selects by integer position — element at row 0, column 1              | Scalar `'Asia'`                              |
 | `country.iloc[0:2, 1]`                            | Rows 0–1 (end-exclusive) at column position 1                                 | Series `Asia, Europe`                        |
 | `country.iloc[:7, 1:3]`                           | Rows 0–6 with column positions 1–2                                            | 7 rows × 2 columns                           |
