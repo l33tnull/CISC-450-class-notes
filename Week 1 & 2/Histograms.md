@@ -1,13 +1,13 @@
 - another way to display the distribution of a quantitative variable
-- useful for large [[Data]] sets
+- useful for large [Data](Data.md) sets
 - divides the variable values into equal-sized intervals
 - can see number of individuals in each interval but not the individual data values
 - avoid large bin histograms; they group only in few bins; does not show good variability
 - avoid small bin histograms; groups data in lots of bins; does not help see pattern in data
-- histograms can also be used to describe the [[Dotplot#Shape of Data|shape]], [[Dotplot#Center of the Distribution|center]], [[Dotplot#Spread of the Distribution|spread]], and [[Dotplot#Outlier of the Distribution|outliers]] of the distribution of quantitative variables
+- histograms can also be used to describe the [shape](Dotplot.md#Shape%20of%20Data), [center](Dotplot.md#Center%20of%20the%20Distribution), [spread](Dotplot.md#Spread%20of%20the%20Distribution), and [outliers](Dotplot.md#Outlier%20of%20the%20Distribution) of the distribution of quantitative variables
 # Making Histograms
 
-- start with a [[Dotplot]]
+- start with a [Dotplot](Dotplot.md)
 - divide variable values into equal-sized intervals called bins
 - turn each bin into a bar
 - the height of the bar indicates the number of individuals in the bin, labeled as count
@@ -24,50 +24,50 @@
 
 - select the range of cells
 
-![[../Images/Images/IMG-20260826153244401.png]]
+![](../Images/Images/IMG-20260826153244401.png)
 
 - On the Insert tab, go to the Charts Group and click the Histogram symbol
 
-![[../Images/Images/IMG-20260826153356747.png]]
+![](../Images/Images/IMG-20260826153356747.png)
 
 - Click on Histogram
 
 Result:
 
-![[../Images/Images/IMG-20260826153438619.png]]
+![](../Images/Images/IMG-20260826153438619.png)
 
 To change the bin size and number of bins:
 
 - Right-click on the horizontal axis and click Format Axis
 
-![[../Images/Images/IMG-20260826153522278.png]]
+![](../Images/Images/IMG-20260826153522278.png)
 
 The format axis pane appears. You can edit the bin width and number of bins.
 
 A bin range is a range of values that specifies the limit for each column of the histogram.
 
-![[../Images/Images/IMG-20260826153549685.png]]
+![](../Images/Images/IMG-20260826153549685.png)
 
 Result:
 
-![[../Images/Images/IMG-20260826153608398.png]]
+![](../Images/Images/IMG-20260826153608398.png)
 # Creating a Histogram using Data Analysis Toolpak
 
 - Go to the Data tab and click Data Analysis.
 
-![[../Images/Images/IMG-20260826153713561.png]]
+![](../Images/Images/IMG-20260826153713561.png)
 
 - In the Data Analysis dialog box, select Histogram
 
-![[../Images/Images/IMG-20260826153752751.png]]
+![](../Images/Images/IMG-20260826153752751.png)
 
 - In the Histogram dialogue box, select the Input range, Bin range, and Output range. Checkmark the chart output.
 
-![[../Images/Images/IMG-20260826153815615.png]]
+![](../Images/Images/IMG-20260826153815615.png)
 
 - Click OK.
 
-![[../Images/Images/IMG-20260826153837711.png]]
+![](../Images/Images/IMG-20260826153837711.png)
 
 The first bin shows all the values below it. In the above case, 20 shows 0 values, which shows that there are 0 employees that are less than age 20.
 # Using Histograms to Compare Distributions

@@ -20,7 +20,7 @@
 - can also be used to subset data, but `y`, in this case, is an array of column labels, instead of an integer or a range of integers
 	- Ex: both `country.iloc[:7,1:3]` and `country.loc[:6,['Continent','Population']]` give the same results
 
-![[../Images/Images/IMG-20260910184709366.png]]
+![](../Images/Images/IMG-20260910184709366.png)
 
 ## Series and dataframes
 
@@ -59,9 +59,9 @@
 - when these operators are used only rows for which the expression is true will be returned
 	- Ex: `country[country['Population'] > 100000]` will display rows whose `'Population'` column values are greater than 100,000 
 
-![[../Images/Images/IMG-20260910192128976.png]]
+![](../Images/Images/IMG-20260910192128976.png)
 
-![[../Images/Images/IMG-20260910192212422.png]]
+![](../Images/Images/IMG-20260910192212422.png)
 
 | Statement                                                                        | What it does                                                                             | Result                                    |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- |

@@ -1,4 +1,4 @@
-[[NumPy Arrays#What is NumPy?|What is NumPy?]]
+[What is NumPy?](NumPy%20Arrays.md#What%20is%20NumPy?)
 # Math Operators and Functions
 
 - ***arithmetic operator*** such as + - * / %
@@ -18,7 +18,7 @@
 	- Ex: `dot(array1, array2)` returns the dot product of `array1` and `array2`
 	- `cross(array1, array2)` returns the cross product
 
-![[../Images/Images/IMG-20260904132143366.png]]
+![](../Images/Images/IMG-20260904132143366.png)
 
 # NumPy: Comparison Operators
 

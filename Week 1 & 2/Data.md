@@ -22,4 +22,4 @@
 		- weight
 		- height
 
-[[1.1 Database Basics]]
+[1.1 Database Basics](1.1%20Database%20Basics.md)
