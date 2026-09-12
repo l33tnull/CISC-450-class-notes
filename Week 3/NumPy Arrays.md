@@ -85,7 +85,7 @@ Tables of functions follow several conventions:
 	- axis is a dimension
 	- in a two-dimensional array, axis 0 refers to rows and axis 1 refers to columns Ex: `sort(array, axis=1)` sorts column values `(axis=1)` within each row
 
-![[arrayfunctions.png]]
+![[../Images/Images/IMG-20260903172929243.png]]
 
 # CRUD for NumPy
 

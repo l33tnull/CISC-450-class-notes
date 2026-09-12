@@ -21,4 +21,4 @@
 	- `order='F'` specifies column-major order
 - `'C'` and `'F'` stand for the languages C and FORTRAN, which store arrays in row- and column-major order, respectively
 
-![[Pasted image 20260903192023.png]]
+![[../Images/Images/IMG-20260903192023484.png]]

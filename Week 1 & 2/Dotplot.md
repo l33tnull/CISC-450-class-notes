@@ -14,26 +14,26 @@
 - cluster of data on the left with a tail of data tapering off top the right
 - has a lot of data at lower variable values with smaller amounts of data at higher variable values
 
-![[Pasted image 20260826161116.png]]
+![[../Images/Images/IMG-20260826161116412.png]]
 ##### Left Skewed
 
 - cluster of data on the right with a tail of data tapering off to the left
 - has a lot of data at higher variable values with smaller amounts of data at lower variable values
 
-![[Pasted image 20260826161131.png]]
+![[../Images/Images/IMG-20260826161131245.png]]
 ##### Symmetric with Central Peak (bell-shaped)
 
 - central peak with a tail in both directions
 - has a lot of data in the center with smaller amounts of data tapering off in each direction
 
-![[Pasted image 20260826161146.png]]
+![[../Images/Images/IMG-20260826161146766.png]]
 ##### Uniform
 
 - equal number of data points for each variable value
 - has the same amount of data for each variable value
 - has a rectangular shape
 
-![[Pasted image 20260826161159.png]]
+![[../Images/Images/IMG-20260826161159413.png]]
 ## Center of the Distribution
 
 - a typical value that represents the whole group

@@ -21,7 +21,7 @@
 			- float
 			- string
 
-![[Pasted image 20260910163533.png]]
+![[../Images/Images/IMG-20260910163533163.png]]
 
 # DataFrames vs Arrays
 

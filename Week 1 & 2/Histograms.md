@@ -24,50 +24,50 @@
 
 - select the range of cells
 
-![[Pasted image 20260826153244.png]]
+![[../Images/Images/IMG-20260826153244401.png]]
 
 - On the Insert tab, go to the Charts Group and click the Histogram symbol
 
-![[Pasted image 20260826153356.png]]
+![[../Images/Images/IMG-20260826153356747.png]]
 
 - Click on Histogram
 
 Result:
 
-![[Pasted image 20260826153438.png]]
+![[../Images/Images/IMG-20260826153438619.png]]
 
 To change the bin size and number of bins:
 
 - Right-click on the horizontal axis and click Format Axis
 
-![[Pasted image 20260826153522.png]]
+![[../Images/Images/IMG-20260826153522278.png]]
 
 The format axis pane appears. You can edit the bin width and number of bins.
 
 A bin range is a range of values that specifies the limit for each column of the histogram.
 
-![[Pasted image 20260826153549.png]]
+![[../Images/Images/IMG-20260826153549685.png]]
 
 Result:
 
-![[Pasted image 20260826153608.png]]
+![[../Images/Images/IMG-20260826153608398.png]]
 # Creating a Histogram using Data Analysis Toolpak
 
 - Go to the Data tab and click Data Analysis.
 
-![[Pasted image 20260826153713.png]]
+![[../Images/Images/IMG-20260826153713561.png]]
 
 - In the Data Analysis dialog box, select Histogram
 
-![[Pasted image 20260826153752.png]]
+![[../Images/Images/IMG-20260826153752751.png]]
 
 - In the Histogram dialogue box, select the Input range, Bin range, and Output range. Checkmark the chart output.
 
-![[Pasted image 20260826153815.png]]
+![[../Images/Images/IMG-20260826153815615.png]]
 
 - Click OK.
 
-![[Pasted image 20260826153837.png]]
+![[../Images/Images/IMG-20260826153837711.png]]
 
 The first bin shows all the values below it. In the above case, 20 shows 0 values, which shows that there are 0 employees that are less than age 20.
 # Using Histograms to Compare Distributions

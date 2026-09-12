@@ -18,7 +18,7 @@
 	- Ex: `dot(array1, array2)` returns the dot product of `array1` and `array2`
 	- `cross(array1, array2)` returns the cross product
 
-![[Pasted image 20260904132143.png]]
+![[../Images/Images/IMG-20260904132143366.png]]
 
 # NumPy: Comparison Operators
 
