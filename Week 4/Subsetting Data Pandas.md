@@ -9,8 +9,8 @@
 
 #### `iloc(x,y)` Method 
 
-- for a dataframe is sued to select an individual element using an index location
-	- where `x` is the row an `y` is the column
+- is used to select an individual element using an index location
+	- where `x` is the row and `y` is the column
 		- Ex: `country.iloc[0,1]` returns the element in row 0 and column 1
 - the colon character `:` is used in slice notation to select multiple rows or columns
 	- Ex: `country.iloc[:5,1:3]` returns rows before row 5 and columns 1 thru 2
