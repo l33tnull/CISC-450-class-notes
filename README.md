@@ -1,2 +1,3 @@
-	These notes are for CISC 450. I took the majority of the notes myself. I got some help from AI on parts, so I didn't have to type it all myself, but all the information is correct. I used Obsidian as the note taking program and used the Git plugin to push the notes to my Github. 
-	The professor provided all the class material, but I had to do some research myself because the professor didn't include some material that some questions still covered. I hope this is helpful. Enjoy!
+These notes are for CISC 450. I took the vast majority of the notes myself. I got some help from AI on parts, so I didn't have to type it all myself, but all the information is correct. I used Obsidian as the note taking program and used the Git plugin to push the notes to my GitHub. 
+
+The professor provided all the class material, but I had to do some research myself because the professor didn't include some material that some questions still covered. I hope this is helpful. Enjoy!
