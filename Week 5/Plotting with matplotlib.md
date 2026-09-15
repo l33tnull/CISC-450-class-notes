@@ -14,7 +14,7 @@
 | `plt.show()`         | - displays the figure and all the objects the figure contains                                                          |
 | `plt.savefig(fname)` | - saves the figure in the current working directory with the filename `fname`                                          |
 >[!Note] 
->`plt.figure()` is only needed when changing the default size of the figure. The size of the figure can be specified using the `figsize` parameter. Since a figure is implicitly created whenever `plt.plot(x, y)` or `plt.scatter(x, y)` functions are called, calling `plt.figure()` is not necessary if the default figure size is acceptable.
+>`plt.figure()` is only needed when changing the default size of the figure. The size of the figure can be specified using the `figsize` parameter. Since a figure is implicitly created whenever `plt.plot(x, y)` or `plt.scatter(x, y)` functions are called, calling `plt.figure()` is not necessary if the default figure size is acceptable. The default figure size is 6.4 inches by 4.8 inches.
 >
 >When using Jupyter Notebooks or any other IDLE, all the elements of each figure is automatically displayed when the cell or line of code is ran so `plt.show()` is only necessary when `matplotlib` is used in a script or terminal.
 
