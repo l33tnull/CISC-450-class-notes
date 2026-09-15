@@ -14,3 +14,26 @@
 > Ex: `plt.title(r'Standard normal distrobution $f(x) = \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2}$')` 
 
 ![](../Images/Images/IMG-20260914185040972.png)
+
+### `arrowprops=dict()`
+
+|Option|Purpose|
+|---|---|
+|`arrowstyle`|Shape of the arrow, such as `"->"`, `"<->"`, or `"-\|>"`|
+|`connectionstyle`|Shape of the shaft, such as `"arc3,rad=0.3"` for a curve|
+|`color`|Overall arrow color|
+|`linewidth` or `lw`|Arrow outline width|
+|`alpha`|Transparency from 0 (invisible) through 1 (opaque)|
+|`shrinkA`|Space between the arrow start and its object, in points|
+|`shrinkB`|Space between the arrow tip and its target, in points|
+|`headwidth`|Width of a simple arrowhead|
+|`headlength`|Length of a simple arrowhead|
+ - Ex: 
+	 `arrowprops=dict(`
+    `arrowstyle="->",`
+    `connectionstyle="arc3,rad=0.3",`
+    `color="blue",`
+    `lw=2,`
+    `shrinkA=5,`
+    `shrinkB=5`
+	`)`
