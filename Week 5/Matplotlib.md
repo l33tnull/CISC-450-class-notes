@@ -1,6 +1,6 @@
 # What is`matplotlib`?
 
-- a package used to create static, dynamic, and interactive plats
+- a package used to create static, dynamic, and interactive plots
 - uses figures to hold plot elements
 	- axes
 	- labels
