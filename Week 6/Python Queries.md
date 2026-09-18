@@ -28,3 +28,4 @@
 >[!Note]
 >Python programs must connect to a database prior to executing queries
 
+![](../Images/Images/IMG-20260918140526607.png)
