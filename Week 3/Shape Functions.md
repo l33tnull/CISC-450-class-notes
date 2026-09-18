@@ -19,6 +19,7 @@
 -  some shape functions have an order parameter
 	- `order='C'` specifies row-major order
 	- `order='F'` specifies column-major order
+
 - `'C'` and `'F'` stand for the languages C and FORTRAN, which store arrays in row- and column-major order, respectively
 
 ![](../Images/Images/IMG-20260903192023484.png)

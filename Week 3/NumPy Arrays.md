@@ -5,8 +5,11 @@
 # What is an Object?
 
 - a single piece of data in memory
+
 - a value that a program can store, pass around, and operate on
+
 - generic term for "a thing the program is holding"
+
 - in Python everything is an object
 	- the number `2`
 	- the text `'Braden Smith'` 
@@ -16,6 +19,7 @@
 # What is a Scalar Object
 
 - *scalar* means "a single, standalone value"
+
 - scalar object is one value with nothing inside it
 	- `2` is one number
 	- `'hello'` is one string
@@ -23,11 +27,13 @@
 # What is a Container Object?
 
 - holds other objects
+
 - groups multiple values into one structure you can work with as a unit
 	- `[2, 4, 6, 8]` a *list* container; ***Ordered, Indexed, Mutable***
 	- `(2, 4)` a *tuple* container; ***Ordered, Indexed, Immutable***
 	- `{'Raul': 3300, 'Mai': 2500}` a *dictionary* container; ***Key-value Pairs, Mutable***
 	- `{831, 572, 290, 572}` a *set* container; ***Unordered, No Duplicates, Mutable***
+
 - each container has different properties used to describe what kind of container it is and how it behaves
 	- ***Ordered*** elements keep their sequence; what's first stays first
 	- *Indexed* elements can be accessed directly by position number, starting at 0
@@ -39,6 +45,7 @@
 # What is a Type?
 
 - the category or classification of an object
+
 - it defines what kind of data the object holds and what you can do with it
 	- Ex:
 		- `2` has the type *integer*
@@ -49,7 +56,9 @@
 # What is ndarray Type?
 
 - an ordered, indexed, and mutable container
+
 - elements are of any type but must be the same type
+
 - the ndarray object is called an ***array*** and is created by the `array()` function
 	- zero-dimensional array consists of a scalar object 
 		- Ex: `2`
@@ -68,6 +77,7 @@
 # Array Literals
 
 - literal such as `[2, 4, 6, 8]` is actually a list, not an array
+
 - formally an array literal is written as `array([2, 4, 6, 8])`
 
 # Array Functions

@@ -1,24 +1,39 @@
 - another way to display the distribution of a quantitative variable
+
 - useful for large [Data](Data.md) sets
+
 - divides the variable values into equal-sized intervals
+
 - can see number of individuals in each interval but not the individual data values
+
 - avoid large bin histograms; they group only in few bins; does not show good variability
+
 - avoid small bin histograms; groups data in lots of bins; does not help see pattern in data
+
 - histograms can also be used to describe the [shape](Dotplot.md#Shape%20of%20Data), [center](Dotplot.md#Center%20of%20the%20Distribution), [spread](Dotplot.md#Spread%20of%20the%20Distribution), and [outliers](Dotplot.md#Outlier%20of%20the%20Distribution) of the distribution of quantitative variables
 # Making Histograms
 
 - start with a [Dotplot](Dotplot.md)
+
 - divide variable values into equal-sized intervals called bins
+
 - turn each bin into a bar
+
 - the height of the bar indicates the number of individuals in the bin, labeled as count
+
 - for each bin the values at the left-hand endpoint of the bin are included in the bin but those at right-hand endpoint are not
+
 - count is also called frequency
+
 - from counts determine a percentage of individuals with a given interval of variable values
+
 - percentage called a relative frequency
 # Analyzing a Histogram using Percentages (Relative Frequencies)
 
 - find total count (sample size)
+
 - divide total by the count of bins pertaining to what you are trying to figure out
+
 - multiply that by 100% to get a percentage
 # Creating Histograms in Excel
 
@@ -73,23 +88,30 @@ The first bin shows all the values below it. In the above case, 20 shows 0 value
 # Using Histograms to Compare Distributions
 
 - Use histograms to compare the distribution of a **quantitative variable** across **two groups** (similar to earlier comparisons with dotplots).
+
 - Descriptions focus on the same four elements:
 	 **Shape** (skewed left/right, symmetric)
      **Center** (typical values — described with intervals, not exact numbers)
      **Spread** (variability, estimated range)
      **Outliers/deviations** from the overall pattern
+
 - Histograms make it easy to use **percentages (relative frequencies)** to compare intervals.
 ## Rules for Fair Visual Comparison
 
 - Both histograms must share the **same horizontal scale** and **bin width**.
+
 - Both must share the **same vertical axis scale**.
+
 - Then bar heights can be compared directly.
+
 - Know bin convention: left endpoints are _included_ 
 	- Ex: a 1,000 g baby falls in 1,000–1,500
+
 - Caveat: **bin width choice affects shape** and can change our sense of "typical" values — center and spread can only be described approximately, using intervals.
 ## Example: Smoking & Birth Weight
 
 - Context: 189 new mothers at a Massachusetts hospital in the 1980s; question — does smoking during pregnancy affect birth weight?
+
 - Groups: nonsmokers (n = 115) vs. smokers (n = 74).
 ### Shape, Center, Spread by Group
 |Feature|Nonsmokers (top)|Smokers (bottom)|
@@ -101,6 +123,7 @@ The first bin shows all the values below it. In the above case, 20 shows 0 value
 ### Key Takeaway Pattern
 
 - Lots of **overlap** between the two distributions.
+
 - Both groups have similar spread, but the **centers differ** — nonsmokers' babies cluster heavier, smokers' babies cluster lighter.
 ## Using Benchmarks to Compare
 
@@ -129,8 +152,11 @@ Structure of the model write-up:
 ## Tips Checklist
 
 - Develop a **thesis statement** comparing the two groups.
+
 - Make context clear: individuals + variable + units.
+
 - **Synthesize** observations into paragraphs that support the thesis — don't just list facts.
+
 - Incorporate the course vocabulary: shape, center, spread, relative frequencies (percentages), benchmarks.
 
 One-sentence summary: when comparing two histograms, match the scales, describe shape/center/spread for each group, quantify differences with percentages and benchmarks, and write it up as a thesis-driven comparison rather than a list.

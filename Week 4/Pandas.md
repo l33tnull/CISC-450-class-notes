@@ -1,4 +1,5 @@
 - a python package that stores and manipulates datasets
+
 - represents datasets with the DataFrame type
 # Dataframes
 
@@ -9,6 +10,7 @@
 - consists of rows and columns
 	- rows represent instances
 	- columns represent features
+
 - rows and columns are identified by integer or string **labels**
 	- **index** - set of *row* labels
 		- labels automatically generated integers
@@ -28,8 +30,10 @@
 ### Similarities Between DataFrames and Arrays
 
 - both are indexed, ordered, mutable containers
+
 - both represent ***axes***
 	- data in multiple dimensions
+
 - both have a ***shape***
 	- a tuple of integers representing the number of elements along each axis
 
@@ -38,18 +42,24 @@
 #### DataFrames
 
 - are always two-dimensional
+
 - different columns have different types
+
 - labels may be integers, strings, or other types
 #### Arrays
 
 - may have zero, one, or many dimensions
+
 - all values have the same type
+
 - indexes are integers only
 
 # Dataset Features
 
 - usually have string names
+
 - often have different types
+
 - usually implemented as dataframes in `pandas` rather than `NumPy` arrays
 
 | Statement                                                                                           | What it does                                                                                                                                      | Result                                                                 |

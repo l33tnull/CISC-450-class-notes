@@ -1,9 +1,11 @@
 # What is Subsetting Data
 
 - choosing specific rows and columns from a dataframe according to labels, indices, and slices
+
 - single column can be selected by using the label of the desired column
 	- Ex: using the country dataset assigned to the variable `country` 
 		- the Population column can be selected using the `country['Population']` or `country.Population` 
+
 - multiple columns can also be selected by using an array of strings
 	- Ex: `country[['Name', 'Population']]` 
 
@@ -12,6 +14,7 @@
 - is used to select an individual element using an index location
 	- where `x` is the row and `y` is the column
 		- Ex: `country.iloc[0,1]` returns the element in row 0 and column 1
+
 - the colon character `:` is used in slice notation to select multiple rows or columns
 	- Ex: `country.iloc[:5,1:3]` returns rows before row 5 and columns 1 thru 2
 
@@ -49,10 +52,13 @@
 | `country.iloc[10:21, 1:]`                         | Rows 10–20 with everything from column 1 onward                               | 11 rows × 2 columns                          |
 | `country.loc[10:20, ['Continent', 'Population']]` | `.loc` selects by label, and slices are end-**inclusive**                     | Same 11 rows × 2 columns as above            |
 > [!NOTE]
-> - `df['col']` → Series; `df[['col']]` → DataFrame. The extra bracket is the whole difference.
->- `.iloc` uses integer positions and its slices are end-exclusive (standard Python behavior).
->- `.loc` uses labels and its slices are end-**inclusive**, which is why `iloc[10:21]` and `loc[10:20]` return the same rows.
->- Omitting a slice bound means "go to the end" — e.g. `loc[10:20]` in rows or `1:` in columns.
+> `df['col']` → Series; `df[['col']]` → DataFrame. The extra bracket is the whole difference.
+> 
+>`.iloc` uses integer positions and its slices are end-exclusive (standard Python behavior).
+>
+>`.loc` uses labels and its slices are end-**inclusive**, which is why `iloc[10:21]` and `loc[10:20]` return the same rows.
+>
+>Omitting a slice bound means "go to the end" — e.g. `loc[10:20]` in rows or `1:` in columns.
 
 # Subsetting Data Using Comparison and Logical Operators
 
@@ -72,11 +78,15 @@
 | `country[(country['Continent'] == 'Asia') ⏐ (country['Continent'] == 'Europe')]` | Combines two masks with `⏐` (OR); each condition needs its own parentheses               | 4 rows (China, Bangladesh, India, Norway) |
 | `country[~(country['Continent'] == 'Asia')]`                                     | `~` negates a boolean mask — works on any mask, including compound ones                  | 3 rows (Brazil, Norway, US)               |
 > [!NOTE]
-> - Filtering works in two steps: `country['Continent'] == 'Asia'` produces a boolean Series (the "mask"), then `country[mask]` keeps rows where the mask is True.
-> - Use `|` for OR and `&` for AND inside a filter — Python's `or`/`and` keywords raise an error because a mask holds many values, not one.
-> - Parentheses around each condition are required: comparisons bind tighter than `|` and `&`.
-> - `~` inverts any mask, so `~(A | B)` is a clean way to say "neither A nor B."
-> - Notice cells 5 and 7 (`!=` vs `~`) return identical results — good sanity check that negation works as expected.
+> Filtering works in two steps: `country['Continent'] == 'Asia'` produces a boolean Series (the "mask"), then `country[mask]` keeps rows where the mask is True.
+> 
+> Use `|` for OR and `&` for AND inside a filter — Python's `or`/`and` keywords raise an error because a mask holds many values, not one.
+> 
+> Parentheses around each condition are required: comparisons bind tighter than `|` and `&`.
+> 
+> `~` inverts any mask, so `~(A | B)` is a clean way to say "neither A nor B."
+> 
+> Notice cells 5 and 7 (`!=` vs `~`) return identical results — good sanity check that negation works as expected.
 
 
 > 
