@@ -15,6 +15,8 @@
 > Creating a connection fails if the database is not found or login creds are invalid.
 > 
 > If connection fails the `except` block executes and typically prints an error message.
+> 
+>  The `try-except` code block is not required but it is recommended to prevent an error causing the whole script to crash with a `Traceback`.
 
 ### What is Connector/Python
 
