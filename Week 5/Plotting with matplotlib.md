@@ -6,13 +6,13 @@
 
 - can display different objects within a figure
 
-| **Object Name**      | **What it Does**                                                                                                       |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `plt.plot(x, y)`     | - where `x` and `y` are arrays of the same size<br>	- creates a line plot connecting consecutive x- and y- coordinates |
-| `plt.scatter(x, y)`  | - creates a scatter plot showing all pairs of x- and y- coordinates                                                    |
-| `plt.figure()`       | - creates a new figure                                                                                                 |
-| `plt.show()`         | - displays the figure and all the objects the figure contains                                                          |
-| `plt.savefig(fname)` | - saves the figure in the current working directory with the filename `fname`                                          |
+| **Object Name**                                                                                                             | **What it Does**                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [`plt.plot(x, y)`]((https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot))          | - where `x` and `y` are arrays of the same size<br>	- creates a line plot connecting consecutive x- and y- coordinates |
+| [`plt.scatter(x, y)`]((https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter)) | - creates a scatter plot showing all pairs of x- and y- coordinates                                                    |
+| [`plt.figure()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html#matplotlib.pyplot.figure)          | - creates a new figure                                                                                                 |
+| [`plt.show()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show)                | - displays the figure and all the objects the figure contains                                                          |
+| [`plt.savefig(fname)`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html#matplotlib.pyplot.savefig)  | - saves the figure in the current working directory with the filename `fname`                                          |
 >[!Note] 
 >`plt.figure()` is only needed when changing the default size of the figure. The size of the figure can be specified using the `figsize` parameter. Since a figure is implicitly created whenever `plt.plot(x, y)` or `plt.scatter(x, y)` functions are called, calling `plt.figure()` is not necessary if the default figure size is acceptable. The default figure size is 6.4 inches by 4.8 inches.
 >
