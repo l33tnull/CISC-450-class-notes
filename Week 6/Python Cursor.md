@@ -3,4 +3,13 @@
 
 -  an object of the **MySQLCursor** class
 - are created with the `connection.cursor()` method
-- are always assciated with a specific dtatbase
+- are always associated with a specific database
+
+## MySQLCursor
+
+- a class that executes SQL ststements and stores the results
+
+
+| Method | Parameters | Additional Explanation |
+| ------ | ---------- | ---------------------- |
+|        |            |                        |
