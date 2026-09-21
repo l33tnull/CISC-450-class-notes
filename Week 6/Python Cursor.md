@@ -1,4 +1,3 @@
-
 # What is a Python Cursor
 
 -  an object of the **MySQLCursor** class
