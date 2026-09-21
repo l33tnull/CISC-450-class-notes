@@ -30,3 +30,12 @@
 
 ![](../Images/Images/IMG-20260921152734399.png)
 ![](../Images/Images/IMG-20260921152816825.png)
+
+## Fetching Values
+
+- when `cursor.execute()` executes a SELECT statem,ent the query results are accessed with fetch methods
+
+
+| Methods | Parameters | Additional Explanation |
+| ------- | ---------- | ---------------------- |
+|         |            |                        |
