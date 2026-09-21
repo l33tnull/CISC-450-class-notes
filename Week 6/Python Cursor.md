@@ -26,4 +26,7 @@
 ![](../Images/Images/IMG-20260920131723439.png)
 
 >[!Warning]
->A database programm
+>A database programmer must be cautious when inserting input data into an SQL statement. An **SQL injection attack** is when a user intentionally enters values that alter the intent of an SQL statement. The `cursor.execute()` method prevents SQL injection when assigning values to placeholders.
+
+![](../Images/Images/IMG-20260921152734399.png)
+![](../Images/Images/IMG-20260921152816825.png)
