@@ -24,3 +24,6 @@
 | [`cursor.warnings()`](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-warnings.html) (`cursor.fetchwarnings()` was deprecated) | n/a (a property)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | returns a list of tuples containing warnings from previous executed operation                                            |
 
 ![](../Images/Images/IMG-20260920131723439.png)
+
+>[!Warning]
+>A database programm
