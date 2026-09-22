@@ -40,4 +40,5 @@
 | ------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`cursor.fetchone()`](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-fetchone.html) | none       | returns a tuple containing a single row or the value `None` if no rows are selected<br>if a query returns multiple rows, it may be executed repeatedly until it returns `None`                                        |
 | [`cursor.fetchall()`](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-fetchall.html) | none       | returns a list of tuples containing all result rows<br>the tuple list can be processed in a loop<br>Ex: `for rowTuple in cursor.fetchall()` assigns each row to `rowTuple` and terminates when all rows are processed |
+
 ![](../Images/Images/IMG-20260921173643048.png)
